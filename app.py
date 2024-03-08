@@ -4,7 +4,7 @@ from gradio_client import Client
 import os
 
 app = Flask(__name__)
-client = Client("yiyii/gradio-inferenceclient-4")
+client = Client("yiyii/generate-story")
 
 # Gradio python client Doc: For certain inputs, such as images, you should pass in the filepath or URL to the file.
 # save the uploaded image temporarily on my server and then pass the file path to the Gradio API.
