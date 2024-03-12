@@ -54,7 +54,7 @@ def index():
         os.remove(image_path)
 
         return render_template("index.html",result=result)
-    return render_template("index.html")
+    return render_template("index.html", result=result)
     #Flask automatically looks for templates in the templates folder,
     #when you call the render_template() function in your Flask application.
 
