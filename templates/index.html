@@ -28,8 +28,10 @@
 
         <input type="submit" value="Generate Story">
     </form>
-    <h2>Generated Story:</h2>
-    <p>{{ result }}</p>
+    {% if result %}
+        <h2>Generated Story:</h2>
+        <p>{{ result }}</p>
+    {% endif %}
 </body>
 </html>
 
